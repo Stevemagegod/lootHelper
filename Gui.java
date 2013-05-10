@@ -29,19 +29,7 @@ import javax.swing.border.TitledBorder;
 public class Gui extends JFrame {
 	private static final long serialVersionUID = 1L;
 
-	
-	
-	// change loot quality values
-	// only show over x value
-	// always show list (should be able to pick color to show for these,
-	// overrides > xPrice, accepts ids & names)
-	// never show list (should be able to pick color to show for these,
-	// overrides > xPrice, accepts ids & names)
-
-	// save/load system
-	// message that tells user to press alt to toggle loot showing
-	// start button
-
+		
 	public static void main(String[] args) {
 		new Gui();
 	}

@@ -34,10 +34,7 @@ public class LootingHelper extends ActiveScript implements PaintListener, MouseL
 	
 	
 	public Font RUNESCAPE_MENU_FONT;
-	
-	@Override public void onStart() {
-		Manifest manifest = (Manifest)this.getClass().getAnnotation(Manifest.class);
-	};
+		
 	
 	@Override
 	public int loop() {						
